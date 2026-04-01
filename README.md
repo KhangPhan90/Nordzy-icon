@@ -5,10 +5,6 @@
 > This repository is a personal fork of [MolassesLover/Nordzy-icon](https://github.com/MolassesLover/Nordzy-icon).
 > It keeps the Nordzy base style while adding local icon coverage, alias support, and iterative visual refinements for app and folder icons.
 
-> [!NOTE]
-> This project was previously under the ownership of [@alvatip](https://github.com/alvatip), before retiring, and transferring the repository to me.
-> The document below is a verbatim copy of what they had written under their ownership.
-
 <p align="center">
 
 <img src="art/preview/theme_preview.png" alt="Nordzy logo">
