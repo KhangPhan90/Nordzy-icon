@@ -1,0 +1,35 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="tile-shadow" x="-.047999" y="-.047999" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.30691668"/>
+  </filter>
+  <linearGradient id="tile" x1=".92604" x2="16.007" y1=".92604" y2="16.007" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#d08770" offset="0"/>
+   <stop stop-color="#b48ead" offset=".56"/>
+   <stop stop-color="#5e81ac" offset="1"/>
+  </linearGradient>
+  <linearGradient id="screen" x1="4.12" x2="12.84" y1="4.38" y2="12.44" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f7f9fc" offset="0"/>
+   <stop stop-color="#d8dee9" offset="1"/>
+  </linearGradient>
+  <linearGradient id="play" x1="7.38" x2="10.38" y1="8.46" y2="8.46" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#d08770" offset="0"/>
+   <stop stop-color="#bf616a" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g stroke-linecap="round" stroke-linejoin="round">
+  <rect transform="matrix(.99138 0 0 1 .072989 .0019055)" x=".79375" y=".90545" width="15.346" height="15.346" rx="3.0526" ry="3.0526" fill="#000" filter="url(#tile-shadow)" opacity=".15" stroke-width="1.2489" style="mix-blend-mode:normal"/>
+  <rect x=".92604" y=".92604" width="15.081" height="15.081" rx="3" ry="3" fill="url(#tile)" stroke-width="1.2274"/>
+  <path d="m.92604 12.774v.27235c0 1.658 1.342 3 3 3h9.081c1.658 0 3-1.342 3-3v-.27235c0 1.658-1.342 3-3 3h-9.081c-1.658 0-3-1.342-3-3" opacity=".16"/>
+  <path d="m.92604 4.159v-.23396c0-1.658 1.342-3 3-3h9.081c1.658 0 3 1.342 3 3v.23396c0-1.658-1.342-3-3-3h-9.081c-1.658 0-3 1.342-3 3" fill="#fff" opacity=".12"/>
+  <rect x=".01215" y=".0060174" width="16.924" height="16.927" fill="none" opacity=".15" stroke-width="1.052"/>
+ </g>
+ <rect x="3.84" y="4.32" width="9.25" height="6.7" rx="1.14" ry="1.14" fill="url(#screen)"/>
+ <path d="m4.47 5.08h7.99" fill="none" opacity=".18" stroke="#fff" stroke-width=".22"/>
+ <path d="m4.34 5.7h8.25" fill="none" stroke="#2e3440" stroke-opacity=".16" stroke-width=".18"/>
+ <path d="m7.42 6.75v2.98l2.95-1.49z" fill="url(#play)"/>
+ <rect x="4.24" y="4.72" width=".6" height=".6" rx=".18" ry=".18" fill="#eceff4" opacity=".9"/>
+ <rect x="5.18" y="4.72" width=".6" height=".6" rx=".18" ry=".18" fill="#eceff4" opacity=".68"/>
+ <rect x="6.12" y="4.72" width=".6" height=".6" rx=".18" ry=".18" fill="#eceff4" opacity=".48"/>
+ <rect x="4.35" y="11.64" width="8.23" height=".82" rx=".41" ry=".41" fill="#2e3440" opacity=".24"/>
+</svg>

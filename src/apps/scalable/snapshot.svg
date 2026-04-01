@@ -1,0 +1,34 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="tile-shadow" x="-.047999" y="-.047999" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.30691668"/>
+  </filter>
+  <linearGradient id="tile" x1=".92604" x2="16.007" y1=".92604" y2="16.007" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#4c566a" offset="0"/>
+   <stop stop-color="#3b4252" offset=".58"/>
+   <stop stop-color="#2e3440" offset="1"/>
+  </linearGradient>
+  <linearGradient id="lens-ring" x1="6.32" x2="10.61" y1="6.29" y2="10.59" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#eceff4" offset="0"/>
+   <stop stop-color="#d8dee9" offset="1"/>
+  </linearGradient>
+  <radialGradient id="lens" cx="8.4665" cy="8.46" r="1.72" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#88c0d0" offset="0"/>
+   <stop stop-color="#5e81ac" offset=".52"/>
+   <stop stop-color="#2e3440" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g stroke-linecap="round" stroke-linejoin="round">
+  <rect transform="matrix(.99138 0 0 1 .072989 .0019055)" x=".79375" y=".90545" width="15.346" height="15.346" rx="3.0526" ry="3.0526" fill="#000" filter="url(#tile-shadow)" opacity=".15" stroke-width="1.2489" style="mix-blend-mode:normal"/>
+  <rect x=".92604" y=".92604" width="15.081" height="15.081" rx="3" ry="3" fill="url(#tile)" stroke-width="1.2274"/>
+  <path d="m.92604 12.774v.27235c0 1.658 1.342 3 3 3h9.081c1.658 0 3-1.342 3-3v-.27235c0 1.658-1.342 3-3 3h-9.081c-1.658 0-3-1.342-3-3" opacity=".16"/>
+  <path d="m.92604 4.159v-.23396c0-1.658 1.342-3 3-3h9.081c1.658 0 3 1.342 3 3v.23396c0-1.658-1.342-3-3-3h-9.081c-1.658 0-3 1.342-3 3" fill="#fff" opacity=".12"/>
+  <rect x=".01215" y=".0060174" width="16.924" height="16.927" fill="none" opacity=".15" stroke-width="1.052"/>
+ </g>
+ <circle cx="12.74" cy="4.46" r=".72" fill="#bf616a"/>
+ <circle cx="8.4665" cy="8.56" r="3.76" fill="#2e3440" opacity=".42"/>
+ <circle cx="8.4665" cy="8.56" r="3.28" fill="url(#lens-ring)"/>
+ <circle cx="8.4665" cy="8.56" r="2.58" fill="url(#lens)"/>
+ <circle cx="8.4665" cy="8.56" r="1.42" fill="#2e3440" opacity=".5"/>
+ <circle cx="9.56" cy="7.32" r=".4" fill="#eceff4" opacity=".84"/>
+</svg>
