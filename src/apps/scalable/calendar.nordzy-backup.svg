@@ -1,0 +1,43 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="tileShadow" x="-.048" y="-.048" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.307"/>
+  </filter>
+  <filter id="badgeShadow" x="-.16" y="-.16" width="1.32" height="1.32" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.26"/>
+  </filter>
+  <linearGradient id="tile" x1=".926" x2="16.007" y1=".926" y2="16.007" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#bf616a" offset="0"/>
+   <stop stop-color="#d08770" offset="1"/>
+  </linearGradient>
+  <linearGradient id="paper" x1="4.15" x2="12.78" y1="4.5" y2="13.4" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f7f9fc" offset="0"/>
+   <stop stop-color="#e5e9f0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="header" x1="4.15" x2="12.78" y1="4.55" y2="7.45" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5e81ac" offset="0"/>
+   <stop stop-color="#81a1c1" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g stroke-linecap="round" stroke-linejoin="round">
+  <rect transform="matrix(.99138 0 0 1 .072989 .0019055)" x=".79375" y=".90545" width="15.346" height="15.346" rx="3.0526" ry="3.0526" fill="#000" filter="url(#tileShadow)" opacity=".15"/>
+  <rect x=".92604" y=".92604" width="15.081" height="15.081" rx="3" ry="3" fill="url(#tile)"/>
+  <path d="m.92604 12.774v.27235c0 1.658 1.342 3 3 3h9.081c1.658 0 3-1.342 3-3v-.27235c0 1.658-1.342 3-3 3h-9.081c-1.658 0-3-1.342-3-3" opacity=".16"/>
+  <path d="m.92604 4.159v-.23396c0-1.658 1.342-3 3-3h9.081c1.658 0 3 1.342 3 3v.23396c0-1.658-1.342-3-3-3h-9.081c-1.658 0-3 1.342-3 3" fill="#fff" opacity=".12"/>
+  <rect x=".01215" y=".0060174" width="16.924" height="16.927" fill="none" opacity=".15"/>
+ </g>
+ <rect x="3.42" y="3.53" width="10.1" height="10.1" rx="2.28" ry="2.28" fill="#000" filter="url(#badgeShadow)" opacity=".18"/>
+ <g stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.17" y="3.16" width="10.1" height="10.1" rx="2.18" ry="2.18" fill="url(#paper)"/>
+  <path d="m3.17 11.38v-.18c0 1.204.976 2.18 2.18 2.18h5.74c1.204 0 2.18-.976 2.18-2.18v.18c0 1.204-.976 2.18-2.18 2.18h-5.74c-1.204 0-2.18-.976-2.18-2.18" opacity=".12"/>
+  <path d="m3.17 5.28v-.06c0-1.204.976-2.18 2.18-2.18h5.74c1.204 0 2.18.976 2.18 2.18v.06h-10.1z" fill="url(#header)"/>
+  <path d="m3.17 5.42h10.1" fill="none" opacity=".2" stroke="#2e3440" stroke-width=".18"/>
+  <path d="m5.04 3.83v1.15" fill="none" stroke="#d8dee9" stroke-width=".72"/>
+  <path d="m11.4 3.83v1.15" fill="none" stroke="#d8dee9" stroke-width=".72"/>
+  <path d="m5.12 7.31h6.2" fill="none" opacity=".28" stroke="#4c566a" stroke-width=".52"/>
+  <path d="m5.12 8.82h6.2" fill="none" opacity=".28" stroke="#4c566a" stroke-width=".52"/>
+  <path d="m5.12 10.33h3.82" fill="none" opacity=".28" stroke="#4c566a" stroke-width=".52"/>
+  <rect x="9.88" y="8.08" width="1.78" height="1.78" rx=".52" ry=".52" fill="#bf616a"/>
+  <path d="m3.17 5.45v-.16c0-1.204.976-2.18 2.18-2.18h5.74c1.204 0 2.18.976 2.18 2.18v.16c0-1.204-.976-2.18-2.18-2.18h-5.74c-1.204 0-2.18.976-2.18 2.18" fill="#fff" opacity=".18"/>
+ </g>
+</svg>

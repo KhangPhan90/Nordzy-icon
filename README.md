@@ -1,5 +1,9 @@
- Nordzy Icon Theme
+ Nordzy Icon Theme Custom Fork
 ======
+
+> [!NOTE]
+> This repository is a personal fork of [MolassesLover/Nordzy-icon](https://github.com/MolassesLover/Nordzy-icon).
+> It keeps the Nordzy base style while adding local icon coverage, alias support, and iterative visual refinements for app and folder icons.
 
 > [!NOTE]
 > This project was previously under the ownership of [@alvatip](https://github.com/alvatip), before retiring, and transferring the repository to me.
@@ -14,6 +18,13 @@
 Nordzy is a free and open source  icon theme for Linux desktops using the [Nord](https://github.com/arcticicestudio/nord) color palette from [Arctic Ice Studio](https://github.com/arcticicestudio) and based on [WhiteSur Icon Theme](https://github.com/vinceliuice/WhiteSur-icon-theme) and [Numix Icon Theme](https://github.com/numixproject/numix-icon-theme)<br/>
  I’ll take requests for which app icons I should put in next. If I get no requests, I take (almost) randomly from the long list of apps.
 Dark variants are more appropriate for dark desktop environments, while the normal variants are more appropriate for light desktop environments. <br/> If you are using a dark theme with a light panel (or the opposite) you can specify the panel argument which make the panel's color opposite.
+
+## This Fork Adds
+
+- Improved app icons and geometry tuning for a cleaner Nordzy-style look
+- Expanded app coverage and symlink aliases for desktop entry compatibility
+- Refined folder visuals with cleaner contrast and reduced muddy halos
+- Ongoing custom adjustments for terminal, editor, browser, calendar, and related app icons
 
 ## Table of contents
 
@@ -44,11 +55,11 @@ Dark variants are more appropriate for dark desktop environments, while the norm
 
 To install the icon theme, first clone this repository
 ```
-git clone https://github.com/MolassesLover/Nordzy-icon
+git clone https://github.com/KhangPhan90/Nordzy-icon-custom
 ```
 Then go inside it
 ```
-cd Nordzy-icon/
+cd Nordzy-icon-custom/
 ```
 and use the installer script (with or without arguments). </br>
 For a local installation: 
