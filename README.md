@@ -1,6 +1,8 @@
 Nordzy Icon Theme Custom Fork
 ======
 
-This repository is a personal fork of [MolassesLover/Nordzy-icon](https://github.com/MolassesLover/Nordzy-icon).
+This repository is a fork of [MolassesLover/Nordzy-icon](https://github.com/MolassesLover/Nordzy-icon).
 
-It keeps the Nordzy base style while adding local icon coverage, alias support, and iterative visual refinements for app and folder icons.
+Highlights:
+- Expanded app icon coverage with more custom icons and alias mappings for real-world desktop entries.
+- Refined existing app, symbolic, and folder icons with cleaner geometry, better contrast, and more consistent Nordzy-style rendering.
