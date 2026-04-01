@@ -12,11 +12,11 @@
    <stop stop-color="#e5e9f0" offset="1"/>
   </linearGradient>
  </defs>
- <rect x="1.45" y="1.35" width="14.03" height="14.03" rx="2.85" ry="2.85" fill="#000" filter="url(#shadow)" opacity=".16"/>
- <path d="m3.68 1.1902h9.573c1.463 0 2.489 1.026 2.489 2.489v9.573c0 1.463-1.026 2.489-2.489 2.489h-9.573c-1.463 0-2.489-1.026-2.489-2.489v-9.573c0-1.463 1.026-2.489 2.489-2.489z" fill="url(#paper)"/>
- <path d="m3.68 1.1902h9.573c1.463 0 2.489 1.026 2.489 2.489v2.9367h-14.551v-2.9367c0-1.463 1.026-2.489 2.489-2.489z" fill="url(#header)"/>
- <path d="m1.1902 6.6169h14.551" fill="none" opacity=".12" stroke="#2e3440" stroke-width=".22"/>
- <path d="m3.68 1.1902h9.573c1.463 0 2.489 1.026 2.489 2.489v.24428c0-1.463-1.026-2.489-2.489-2.489h-9.573c-1.463 0-2.489 1.026-2.489 2.489v-.24428c0-1.463 1.026-2.489 2.489-2.489z" fill="#fff" opacity=".14"/>
+ <rect transform="matrix(.99138 0 0 1 .072989 .0019055)" x=".79375" y=".90545" width="15.346" height="15.346" rx="3.0526" ry="3.0526" fill="#000" filter="url(#shadow)" opacity=".16"/>
+ <rect x=".92604" y=".92604" width="15.081" height="15.081" rx="3" ry="3" fill="url(#paper)"/>
+ <path d="m.92604 3.926v2.8618h15.081v-2.8618c0-1.658-1.342-3-3-3h-9.081c-1.658 0-3 1.342-3 3z" fill="url(#header)"/>
+ <path d="m.92604 6.7878h15.081" fill="none" opacity=".12" stroke="#2e3440" stroke-width=".22"/>
+ <path d="m.92604 4.159v-.23396c0-1.658 1.342-3 3-3h9.081c1.658 0 3 1.342 3 3v.23396c0-1.658-1.342-3-3-3h-9.081c-1.658 0-3 1.342-3 3" fill="#fff" opacity=".12"/>
  <text x="8.4665" y="4.85" fill="#f7f9fc" font-family="Cantarell, sans-serif" font-size="2.55px" font-weight="700" letter-spacing=".09px" text-anchor="middle">AUG</text>
  <text x="8.4665" y="12.35" fill="#2e3440" font-family="Cantarell, sans-serif" font-size="7.2px" font-weight="700" text-anchor="middle">15</text>
 </svg>

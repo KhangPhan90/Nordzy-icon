@@ -22,7 +22,7 @@
    <stop stop-color="#4c566a" offset="1"/>
   </linearGradient>
  </defs>
- <rect x="1.04" y="1.04" width="14.86" height="14.86" rx="3.08" ry="3.08" fill="#000" filter="url(#shadow)" opacity=".16"/>
+ <rect transform="matrix(.99138 0 0 1 .072989 .0019055)" x=".79375" y=".90545" width="15.346" height="15.346" rx="3.0526" ry="3.0526" fill="#000" filter="url(#shadow)" opacity=".16"/>
  <rect x=".92604" y=".92604" width="15.081" height="15.081" rx="3" ry="3" fill="url(#rim)"/>
  <rect x="1.26" y="1.26" width="14.41" height="14.41" rx="2.68" ry="2.68" fill="url(#shell)"/>
  <path d="m1.26 13.56v.28c0 1.558 1.263 2.821 2.821 2.821h8.769c1.558 0 2.821-1.263 2.821-2.821v-.28c0 1.558-1.263 2.821-2.821 2.821h-8.769c-1.558 0-2.821-1.263-2.821-2.821" opacity=".12"/>

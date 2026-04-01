@@ -16,13 +16,13 @@
    <stop stop-color="#c9d3de" offset="1"/>
   </linearGradient>
  </defs>
- <rect x="1.02" y="1.02" width="14.89" height="14.89" rx="2.95" ry="2.95" fill="#000" filter="url(#shadow)" opacity=".16"/>
- <path d="m3.06 0.92604h10.881c1.179 0 2.066.887 2.066 2.066v10.949c0 1.179-.887 2.066-2.066 2.066h-10.881c-1.179 0-2.139-.887-2.139-2.066v-10.949c0-1.179.96-2.066 2.139-2.066z" fill="url(#leftFace)"/>
- <path d="m8.466 0.92604h5.475c1.179 0 2.066.887 2.066 2.066v10.949c0 1.179-.887 2.066-2.066 2.066h-5.475z" fill="url(#rightFace)"/>
+ <rect transform="matrix(.99138 0 0 1 .072989 .0019055)" x=".79375" y=".90545" width="15.346" height="15.346" rx="3.0526" ry="3.0526" fill="#000" filter="url(#shadow)" opacity=".16"/>
+ <rect x=".92604" y=".92604" width="15.081" height="15.081" rx="3" ry="3" fill="url(#leftFace)"/>
+ <path d="m8.4665.92604h4.5405c1.658 0 3 1.342 3 3v9.081c0 1.658-1.342 3-3 3h-4.5405z" fill="url(#rightFace)"/>
  <rect x="8.08" y=".92604" width=".78" height="15.081" fill="url(#divider)"/>
  <rect x="4.52" y="4.28" width=".68" height="2.28" rx=".34" ry=".34" fill="#2e3440"/>
  <rect x="11.73" y="4.28" width=".68" height="2.28" rx=".34" ry=".34" fill="#2e3440"/>
- <path d="m2.84 0.92604h11.327c1.016 0 1.84.825 1.84 1.84v.503c0-.945-.824-1.71-1.84-1.71h-11.327c-1.016 0-1.914.765-1.914 1.71v-.503c0-1.015.898-1.84 1.914-1.84z" fill="#fff" opacity=".16"/>
+ <path d="m.92604 4.159v-.23396c0-1.658 1.342-3 3-3h9.081c1.658 0 3 1.342 3 3v.23396c0-1.658-1.342-3-3-3h-9.081c-1.658 0-3 1.342-3 3" fill="#fff" opacity=".12"/>
  <path d="m3.76 8.58c1.04 1.62 2.56 2.42 4.57 2.42 1.95 0 3.51-.8 4.69-2.42" fill="none" stroke="#2e3440" stroke-linecap="round" stroke-width=".54"/>
  <path d="m3.76 8.58c1.04 1.62 2.56 2.42 4.57 2.42 1.95 0 3.51-.8 4.69-2.42" fill="none" opacity=".16" stroke="#fff" stroke-linecap="round" stroke-width=".14"/>
 </svg>
